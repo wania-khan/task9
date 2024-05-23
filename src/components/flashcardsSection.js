@@ -58,7 +58,7 @@ function flashcardsSection(){
             <h3 className="text-xl font-bold text-[22px] mb-2">
               {option.heading}
             </h3>
-            <p className="text-[#64748B] text-base mb-4 group-hover:text-red-900">{option.description}</p>
+            <p className="text-[#64748B] text-base mb-4 group-hover:text-white">{option.description}</p>
             <div className="flex items-center mb-4">
               <span className="mr-2 text-6xl font-semibold">{option.price}</span>
               <span className="text-base font-light">{option.month}</span>
@@ -84,7 +84,7 @@ function flashcardsSection(){
                 <div className="w-8 h-8 rounded-full bg-[#F7F8F9] flex items-center justify-center">
                   <img src={Cross} alt="cross-icon" className="w-3 h-3" />
                 </div>
-                  <span className="ml-2 text-[#A0ABBB] text-base font-medium group-hover:text-white-900">{feature}</span>
+                  <span className="ml-2 text-[#A0ABBB] text-base font-medium group-hover:text-white">{feature}</span>
                 </div>
               ))}
             </div>
