@@ -54,7 +54,7 @@ function flashcardsSection(){
         {options.map((option) => (
           <div
             key={option.heading}
-            className="group bg-white rounded-lg shadow-md px-6 py-8 border border-12 border-gray-100 hover:bg-[#1D4ED8] hover:text-white">
+            className="group bg-white rounded-lg shadow-md px-6 py-8 border border-12 border-gray-100 hover:bg-[#1D4ED8] hover:text-white hover:transition duration-2000 ease-in-out hover:scale-105">
             <h3 className="text-xl font-bold text-[22px] mb-2">
               {option.heading}
             </h3>
