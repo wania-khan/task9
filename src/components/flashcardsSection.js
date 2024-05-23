@@ -47,6 +47,7 @@ const options=[
 function flashcardsSection(){
     return(
     <>
+    
     <br />
       <div className="max-w-6xl m-auto justify-center items-center manrope-normal">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -57,13 +58,13 @@ function flashcardsSection(){
             <h3 className="text-xl font-bold text-[22px] mb-2">
               {option.heading}
             </h3>
-            <p className="text-[#64748B] text-base mb-4 group-hover:text-white-900">{option.description}</p>
+            <p className="text-[#64748B] text-base mb-4 group-hover:text-red-900">{option.description}</p>
             <div className="flex items-center mb-4">
               <span className="mr-2 text-6xl font-semibold">{option.price}</span>
               <span className="text-base font-light">{option.month}</span>
             </div>
             <div className="w-full">
-            <button className="mt-4 px-4 py-2 rounded border border-[1.5px] border-[#1D4ED8] w-[330px] h-[44px] bg-white text-[#1D4ED8] text-base font-semibold">
+            <button className="mt-4 px-4 py-2 rounded border-[1.5px] border-[#1D4ED8] w-[330px] h-[44px] bg-white text-[#1D4ED8] text-base font-semibold">
               Get Started Now
             </button>
             </div>
