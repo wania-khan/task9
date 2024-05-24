@@ -50,7 +50,7 @@ function flashcardsSection(){
     
     <br />
       <div className="max-w-6xl m-auto justify-center items-center manrope-normal">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:justify-items-center sm:items-center sm:w-full">
         {options.map((option) => (
           <div
             key={option.heading}
