@@ -21,7 +21,7 @@ function heroSection1(){
      </div>  
     <div className="">Pay Yearly</div>
       </div> 
-     <div className="flex items-center justify-end mr-80 font-medium text-lg ">
+     <div className="relative flex items-center justify-end mr-80 font-medium text-lg ">
       <img src={Arrow} className="w-24 h-16 -mt-7" alt="error-arrow" />
       <p className="text-[#1D4ED8]">Save 25%</p>
      </div>

@@ -64,7 +64,7 @@ function flashcardsSection(){
               <span className="text-base font-light">{option.month}</span>
             </div>
             <div className="w-full">
-            <button className="mt-4 px-4 py-2 rounded border-[1.5px] border-[#1D4ED8] w-[330px] h-[44px] bg-white text-[#1D4ED8] text-base font-semibold">
+            <button className="mt-4 px-4 py-2 rounded border-[1.5px] border-[#1D4ED8] w-full h-[44px] bg-white text-[#1D4ED8] text-base font-semibold">
               Get Started Now
             </button>
             </div>
