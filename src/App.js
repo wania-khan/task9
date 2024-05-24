@@ -6,6 +6,7 @@ function App() {
   return (
     <>
     <HeroSection1 />
+    <br /><br />
     <FlashcardsSection />
     <br />
     </>

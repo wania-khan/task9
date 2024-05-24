@@ -11,7 +11,7 @@ function heroSection1(){
     </h1><br />
     <p className="text-center font-normal text-xl">Choose a plan that&apos;s right for you</p>
     <br /><br />
-    <div class="flex items-center justify-center gap-8 font-normal text-base">
+    <div class="m-auto max-w-full flex items-center justify-center gap-8 font-normal text-base">
     <div className="">Pay Monthly</div>
     <div className="justify-center items-center">
     <label class="inline-flex items-center cursor-pointer">
@@ -20,11 +20,11 @@ function heroSection1(){
     </label>
      </div>  
     <div className="">Pay Yearly</div>
-      </div> 
-     <div className="relative flex items-center justify-end mr-80 font-medium text-lg ">
+     <div className="absolute flex items-center justify-end ml-96 mt-20 font-medium text-lg ">
       <img src={Arrow} className="w-24 h-16 -mt-7" alt="error-arrow" />
       <p className="text-[#1D4ED8]">Save 25%</p>
      </div>
+     </div> 
     </div>
     </>
     );
