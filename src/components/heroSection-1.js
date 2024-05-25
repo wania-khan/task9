@@ -20,7 +20,7 @@ function heroSection1(){
     </label>
      </div>  
     <div className="">Pay Yearly</div>
-    <div className="items-center mt-20 font-medium text-lg sm:w-auto sm:h-auto">
+    <div className="flex absolute items-center mt-20 font-medium text-lg sm:w-auto sm:h-auto">
       <img src={Arrow} className="w-24 h-16 -mt-7" alt="error-arrow" />
       <p className="text-[#1D4ED8]">Save 25%</p>
      </div>
