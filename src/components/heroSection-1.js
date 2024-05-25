@@ -24,11 +24,11 @@ function heroSection1(){
       <img src={Arrow} className="w-24 h-18 -mt-7" alt="error-arrow" />
       <p className="text-[#1D4ED8]">Save 25%</p>
      </div>
-     <div className="flex items-center font-medium text-lg sm:w-auto sm:h-auto ">
+     </div> 
+     <div className="flex items-center justify-end font-medium text-lg sm:w-auto sm:h-auto lg:hidden md:hidden ">
       <img src={Arrow} className="w-24 h-18 -mt-7" alt="error-arrow" />
       <p className="text-[#1D4ED8]">Save 25%</p>
      </div>
-     </div> 
     </div>
     </>
     );
